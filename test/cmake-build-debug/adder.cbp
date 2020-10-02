@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="adder"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="add">
+				<Option output="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug/add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/botsula/STUDY/OS/fork_exec /cpp-template/inc"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 add"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="add/fast">
+				<Option output="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug/add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_PROGRAM_OPTIONS_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/home/botsula/STUDY/OS/fork_exec /cpp-template/inc"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 add/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="operations">
+				<Option output="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug/liboperations.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/botsula/STUDY/OS/fork_exec /cpp-template/inc"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 operations"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="operations/fast">
+				<Option output="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug/liboperations.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/botsula/STUDY/OS/fork_exec /cpp-template/inc"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 operations/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/botsula/STUDY/OS/fork_exec\ /cpp-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/inc/operations/operations.hpp">
+			<Option target="operations"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/src/main.cpp">
+			<Option target="add"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/src/operations.cpp">
+			<Option target="operations"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/cmake/config.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/../../../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/boost_program_options-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/boost_program_options-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/libboost_program_options-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+		<Unit filename="/home/botsula/STUDY/OS/fork_exec /cpp-template/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.71.0/libboost_program_options-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_program_options-1.71.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

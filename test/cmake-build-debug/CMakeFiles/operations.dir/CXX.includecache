@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/botsula/STUDY/OS/fork_exec/myshell/src/operations.cpp
+iostream
+-
+vector
+-
+sstream
+-
+stdlib.h
+-
+boost/algorithm/string.hpp
+-
+iostream
+-
+fstream
+-
+sys/types.h
+-
+sys/wait.h
+-
+unistd.h
+-
+readline/history.h
+-
+filesystem
+-
+
