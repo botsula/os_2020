@@ -1,4 +1,0 @@
-/home/botsula/STUDY/OS/fork_exec/myshell/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/botsula/STUDY/OS/fork_exec/myshell/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/botsula/STUDY/OS/fork_exec/myshell/cmake-build-debug/CMakeFiles/myshell.dir
-/home/botsula/STUDY/OS/fork_exec/myshell/cmake-build-debug/CMakeFiles/operations.dir

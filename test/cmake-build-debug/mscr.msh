@@ -1,5 +1,0 @@
-#!/home/botsula/STUDY/OS/fork_exec/myshell/cmake-build-debug/myshell
-# Absolute path is necessary in shebang.
-# My simple script
-echo "Files: "
-ls
