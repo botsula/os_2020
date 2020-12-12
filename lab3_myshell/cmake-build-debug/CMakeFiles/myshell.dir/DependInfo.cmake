@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/botsula/STUDY/OS/fork_exec/myshell/src/main.cpp" "/home/botsula/STUDY/OS/fork_exec/myshell/cmake-build-debug/CMakeFiles/myshell.dir/src/main.cpp.o"
+  "/home/botsula/STUDY/OS/os_2020/lab3_myshell/src/main.cpp" "/home/botsula/STUDY/OS/os_2020/lab3_myshell/cmake-build-debug/CMakeFiles/myshell.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,7 +21,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/botsula/STUDY/OS/fork_exec/myshell/cmake-build-debug/CMakeFiles/operations.dir/DependInfo.cmake"
+  "/home/botsula/STUDY/OS/os_2020/lab3_myshell/cmake-build-debug/CMakeFiles/operations.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

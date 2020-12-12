@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/botsula/STUDY/OS/fork_exec/myshell/src/operations.cpp" "/home/botsula/STUDY/OS/fork_exec/myshell/cmake-build-debug/CMakeFiles/operations.dir/src/operations.cpp.o"
+  "/home/botsula/STUDY/OS/os_2020/lab3_myshell/src/operations.cpp" "/home/botsula/STUDY/OS/os_2020/lab3_myshell/cmake-build-debug/CMakeFiles/operations.dir/src/operations.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

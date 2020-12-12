@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/botsula/STUDY/OS/fork_exec/myshell/src/operations.cpp
+/home/botsula/STUDY/OS/os_2020/lab3_myshell/src/operations.cpp
 iostream
 -
 vector

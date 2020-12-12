@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wextra -Wpedantic -Werror=vla -std=gnu++17
 
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK
 
-CXX_INCLUDES = -I/home/botsula/STUDY/OS/fork_exec/myshell/inc 
+CXX_INCLUDES = -I/home/botsula/STUDY/OS/os_2020/lab3_myshell/inc 
 
