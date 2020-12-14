@@ -1,5 +1,7 @@
-# Lab 3 : Myshell
-First iteration.
+# Lab 6 : Myshell + Sockets
+Implementation of Shell with sockets option.
+
+> Server supports only one client
 
 ## Team
 
@@ -24,6 +26,43 @@ The rest prerequisites (such as development libraries) can be found in the [pack
 2. Put internal programs
     Put programs from the `/bin/..` directory to the build directory. Now there is only `mycat`. 
 
+## Create or not create server ?
+
+#### To start **myshell** locally :
+```bash
+$ ./myshell
+```
+
+#### To start **myshell server** :
+```bash
+$ ./myshell --server
+```
+As default option, it will start on **PORT = 8080**.
+But if you want to mention your special port, just start **myshell** as :
+```bash
+$ ./myshell --server --port [PORT]
+```
+
+As a connection tool (when server is already started) you can use **telnet** utility as following:
+```bash
+$ telnet 127.0.0.1 8080
+```
+
+Now you can do everything you need using socket!
+Interface is the same, it would be described in **Usage** part.
+
+
+Also all the information is logged in the server terminal and looks as following:
+```bash
+[myshell] SERVER IS MENTIONED
+[myshell] SOCKET PORT: 8080
+[myshell] SOCKET ADDRESS: 127.0.0.1
+[myshell] ++ls++        from 127.0.0.1 : Mon Dec 14 12:55:32 2020
+[myshell] ++ls++        from 127.0.0.1 : Mon Dec 14 12:55:34 2020
+[myshell] ++mpwd++      from 127.0.0.1 : Mon Dec 14 12:55:35 2020
+[myshell] ++mpwd++      from 127.0.0.1 : Mon Dec 14 12:55:42 2020
+[myshell] SHUTDOWN OK: 0
+```
 ## Usage
 
 ```bash
@@ -41,7 +80,6 @@ $ ls               # call /bin/ls
 $ echo ...         # call /bin/echo
 $ cat ...          # call /bin/cat
 etc.
-
    
 ```
 Now supporting `-h` command and `wildcards` are not available, but release will be upgraded soon.
