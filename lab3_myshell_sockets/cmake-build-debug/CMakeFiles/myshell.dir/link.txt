@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/myshell.dir/src/main.cpp.o  -o myshell  -Wl,-rpath,/home/botsula/STUDY/OS/os_2020/lab3_myshell_sockets/cmake-build-debug liboperations.so /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0 

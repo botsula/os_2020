@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,liboperations.so -o liboperations.so CMakeFiles/operations.dir/src/operations.cpp.o 
